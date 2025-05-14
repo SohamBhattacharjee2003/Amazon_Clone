@@ -70,7 +70,7 @@ function AddItems() {
                         required
                     />
                 </InputContainer>
-                <Button type="submit">ADD PRODUCT</Button>
+                <StyledButton type="submit">ADD PRODUCT</StyledButton>
             </FormContainer>
         </Container>
     );
@@ -135,7 +135,7 @@ const Input = styled.input`
     }
 `;
 
-const Button = styled.button`
+const StyledButton = styled.button`
     width: 70%;
     height: 40px;
     background-color: #f3b414;

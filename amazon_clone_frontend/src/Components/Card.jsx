@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Rating from '@material-ui/lab/Rating';
+import { Rating } from '@mui/lab';
+import { Button } from '@mui/material';
 import { useStateValue } from '../StateProvider';
 
 function Card({ id,img, dic}) {

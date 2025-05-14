@@ -16,19 +16,13 @@ const productSchema = new mongoose.Schema({
 
 // Create a model for the products
 const Product = mongoose.model('Product', productSchema, 'Backend_data');
-const port = 8000;
-
 app.use(express.json());
 app.use(cors());
 
 // Replace <password> with your actual MongoDB password
 const connection_url = process.env.MONGODB_URI;
 
-mongoose.connect(connection_url, {
-  useNewUrlParser: true,
-  
-  useUnifiedTopology: true
-}).then(() => {
+mongoose.connect(connection_url).then(() => {
   console.log("MongoDB connected");
 }).catch(err => {
   console.error("MongoDB connection error:", err);
@@ -54,8 +48,8 @@ app.post('/products/add', (req, res) => {
     console.log("Product Detail >>>>", productDetail);
     });
 
-const newPort = 8001;
-const server = app.listen(newPort, () => console.log("Server is listening on port", newPort));
+const port = 8001;
+const server = app.listen(port, () => console.log("Server is listening on port", port));
 
 // Graceful shutdown
 process.on('SIGINT', () => {

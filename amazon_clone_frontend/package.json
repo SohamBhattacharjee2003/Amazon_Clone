@@ -9,6 +9,8 @@
     "@mui/material": "^7.1.0",
     "@stripe/react-stripe-js": "^2.7.3",
     "@stripe/stripe-js": "^4.1.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "axios": "^1.7.2",
     "dotenv": "^16.5.0",
     "firebase": "^10.12.4",

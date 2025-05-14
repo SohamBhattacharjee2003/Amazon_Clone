@@ -61,12 +61,12 @@ Follow these steps to run the project locally:
 git clone <your-repository-url>
 cd <your-repository-folder>
 ```
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 bash
 ```
 npm install
 ```
-3️⃣ Firebase Configuration
+### 3️⃣ Firebase Configuration
 Go to Firebase Console
 
 Create a new project and enable:
@@ -88,7 +88,7 @@ REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 REACT_APP_FIREBASE_APP_ID=your_app_id
 ```
-4️⃣ Stripe Configuration
+### 4️⃣ Stripe Configuration
 Go to Stripe Dashboard
 
 Get your public and secret keys and add them to .env:
@@ -98,35 +98,31 @@ env
 REACT_APP_STRIPE_PUBLIC_KEY=your_public_key
 STRIPE_SECRET_KEY=your_secret_key
 ```
-▶️ Run Locally
+### ▶️ Run Locally
 bash
 ```
 npm start
 ```
 Then visit: http://localhost:3000
-📈 Future Improvements
-🛠 Admin panel for product uploads
+### 📈 Future Improvements
+## 🛠 Admin panel for product uploads
 
-📊 Analytics dashboard
+## 📊 Analytics dashboard
 
-📲 Mobile-first redesign
+## 📲 Mobile-first redesign
 
-🧪 Unit & integration tests
+## 🧪 Unit & integration tests
 
-📦 Wishlist and product rating features
+## 📦 Wishlist and product rating features
 
-🔎 Search and filter functionality
+## 🔎 Search and filter functionality
 
-🧠 Integration with AI recommendation engine
+## 🧠 Integration with AI recommendation engine
 
-🙌 Acknowledgements
+### 🙌 Acknowledgements
 This project was developed as a learning exercise and is inspired by Amazon’s real-world e-commerce flow. Special thanks to:
 
-💻 CleverProgrammer
+## 💻 CleverProgrammer
 
-💡 Firebase, Stripe, and React communities
+## 💡 Firebase, Stripe, and React communities
 
-🔗 References
-🔗 Live Website
-
-🛠️ GitHub Repository: your-repo-link

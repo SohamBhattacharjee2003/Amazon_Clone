@@ -60,11 +60,12 @@ Follow these steps to run the project locally:
 ```bash
 git clone <your-repository-url>
 cd <your-repository-folder>
+```
 2️⃣ Install Dependencies
 bash
-Copy
-Edit
+```
 npm install
+```
 3️⃣ Firebase Configuration
 Go to Firebase Console
 
@@ -79,29 +80,29 @@ Firebase Storage (optional)
 Replace the Firebase config values in .env:
 
 env
-Copy
-Edit
+```
 REACT_APP_FIREBASE_API_KEY=your_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
 REACT_APP_FIREBASE_PROJECT_ID=your_project_id
 REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 REACT_APP_FIREBASE_APP_ID=your_app_id
+```
 4️⃣ Stripe Configuration
 Go to Stripe Dashboard
 
 Get your public and secret keys and add them to .env:
 
 env
-Copy
-Edit
+```
 REACT_APP_STRIPE_PUBLIC_KEY=your_public_key
 STRIPE_SECRET_KEY=your_secret_key
+```
 ▶️ Run Locally
 bash
-Copy
-Edit
+```
 npm start
+```
 Then visit: http://localhost:3000
 📈 Future Improvements
 🛠 Admin panel for product uploads

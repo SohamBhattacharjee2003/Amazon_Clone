@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Rating } from '@mui/lab';
+import { Rating } from '@mui/material';
 import { Button } from '@mui/material';
 import { useStateValue } from '../StateProvider';
 

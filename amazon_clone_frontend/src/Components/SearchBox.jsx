@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
+import { styled } from '@mui/material/styles';
 import Card from './Card';
 import axios from '../axios';
 import AddItems from './AddItems';
